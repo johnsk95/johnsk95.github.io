@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 3.5"
+gem "jekyll", "~> 3.7"
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 
@@ -17,4 +17,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem 'jekyll-redirect-from'
+  gem "kramdown-parser-gfm"
 end
