@@ -26,7 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: johnsk95/john_website
+remote_theme: johnsk95/johnsk95
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -72,10 +72,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/johnsk95"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-github"
       url: "https://www.linkedin.com/in/johnyi95/"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-github"
       url: "https://scholar.google.com/citations?user=LtqmnjEAAAAJ&hl=en&oi=ao"
 
 footer:
