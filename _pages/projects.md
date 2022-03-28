@@ -5,5 +5,4 @@ permalink: /projects/
 author_profile: true
 ---
 
-Test Text
-
+Coming Soon!
