@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Teaching a robotic guide dog to walk 
-![p1](../assets/images/sim.png)
+![p1](../assets/images/eval_ours.gif)
 __[[report]](https://drive.google.com/file/d/1SOTqZE1FKn_cMCLk0z0W3LTs_vG2VwrT/view?usp=sharing)__  
 Guide dogs take time to train and the skills learned are not transferrable. This is a part of a robotic guide dog project that teaches roboust locomotion policies that can walk naturally while battling external forces coming from the rigid harness attached to the dog, or possible collisions. We are also working on a method to read human intentions from the feedback coming from the harness, and associate it into robot actions. (e.g. stop, slow down)
 
@@ -22,4 +22,5 @@ Understanding human command is an important process needed for effective human-r
 
 ## PointNav - pointing gesture based robot navigation tool
 ![p4](../assets/images/pointnav.gif)  
+(This is a project conducted while interning at SSIC)  
 PointNav is an intuitive robot navigation tool that allows the robot to move to the area pointed by the user. It is an end-to-end software that uses a depth camera to detect hand gestures and uses body pose estimation to calculate the target coordinate the robot should move to. We test PointNav on a working prototype with a custom-build TurtleBot platform. 
