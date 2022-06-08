@@ -7,7 +7,7 @@ author_profile: true
 
 ## Teaching a robotic guide dog to walk 
 ![p1](../assets/images/eval_ours.gif)  
-__[[report]](https://drive.google.com/file/d/1SOTqZE1FKn_cMCLk0z0W3LTs_vG2VwrT/view?usp=sharing)__  
+__[[video]](https://youtu.be/kPPWa5sep_w)__  
 Guide dogs take time to train and the skills learned are not transferrable. This is a part of a robotic guide dog project that teaches roboust locomotion policies that can walk naturally while battling external forces coming from the rigid harness attached to the dog, or possible collisions. We are also working on a method to read human intentions from the feedback coming from the harness, and associate it into robot actions. (e.g. stop, slow down)
 
 ## Learning generalizable representations by combining pretext tasks
