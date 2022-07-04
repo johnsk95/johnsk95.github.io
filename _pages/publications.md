@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-1. [Using Self-Supervised Pretext Tasks for Active Learning](https://arxiv.org/abs/2201.07459), __John Seon Keun Yi__\*, Minseok Seo\*, Jongchan Park, and Dong-Geol Choi, arXiv preprint, 2022 _in review_
+1. [Using Self-Supervised Pretext Tasks for Active Learning](https://arxiv.org/abs/2201.07459), __John Seon Keun Yi__\*, Minseok Seo\*, Jongchan Park, and Dong-Geol Choi, European Conference on Computer Vision (ECCV), 2022
 
 2. [Incremental Object Grounding Using Scene Graphs](https://arxiv.org/abs/2201.01901), __John Seon Keun Yi__\*, Yoonwoo Kim\*, and Sonia Chernova, arXiv preprint, 2022
 
