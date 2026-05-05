@@ -53,9 +53,23 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-    <tr>
+    <tr onmouseout="imad_stop()" onmouseover="imad_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/latent.png" alt="latent_agents" width="160">
+              <div class="one">
+                <div class="two" id='imad_image'>
+                  <img src='images/imad2.png' width="160"></div>
+                <img src='images/imad1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function imad_start() {
+                  document.getElementById('imad_image').style.opacity = "1";
+                }
+
+                function imad_stop() {
+                  document.getElementById('imad_image').style.opacity = "0";
+                }
+                imad_stop()
+              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2604.24881">
@@ -68,7 +82,8 @@
               <br>
               <em>ACL</em>, 2026
               <br>
-              <a href="https://arxiv.org/abs/2604.24881">paper</a>
+              <a href="https://arxiv.org/abs/2604.24881">paper</a> /
+              <a href="https://github.com/johnsk95/latent_agents">code</a>
               <p></p>
               <p>
 Fine-tuning framework to internalize multi-agent debate inside a single language model. Additionally, we identify and steer agent subspaces inside the internalized model.
@@ -80,7 +95,7 @@ Fine-tuning framework to internalize multi-agent debate inside a single language
     
 	  <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/global_piqa_evaluating_physical.png" alt="global_piqa" width="160">
+              <img src="images/map_languages.png" alt="global_piqa" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2510.24081">
@@ -91,7 +106,8 @@ Fine-tuning framework to internalize multi-agent debate inside a single language
               <br>
               <em>arXiv</em>, 2025
               <br>
-              <a href="https://arxiv.org/abs/2510.24081">paper</a>
+              <a href="https://arxiv.org/abs/2510.24081">paper</a> /
+              <a href="https://huggingface.co/datasets/mrlbenchmarks/global-piqa-nonparallel">dataset</a>
               <p></p>
               <p>
 An evaluation benchmark for physical commonsense reasoning covering 100+ languages and cultures.
@@ -334,10 +350,11 @@ We try to learn domain agnostic generelizable representations that yields good p
               <img src="images/bu_logo.png" width="160">
             </td>
             <td width="75%" valign="center">
-              Teaching Assistant: <br>
+              Teaching Fellow: <br>
               Introduction to Computer Science: CS111 Summer 2025, Summer 2024 <br>
 			  Introduction to Artificial Intelligence: CS440 Spring 2025 <br>
-			  Software Engineering: CS411 Fall 2025
+			  Software Engineering: CS411 Fall 2025 <br>
+        Responsible AI for Business: SM456 Spring 2026
             </td>
 		  </tr>	
           <tr>
